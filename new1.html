@@ -1,0 +1,106 @@
+<html>
+<head>
+
+<style>
+body{
+ background: linear-gradient(90deg,pink,skyblue,yellow);
+}
+    .s1{
+         width: 320px;
+         height:250px;
+         position:absolute;
+		 
+	  }
+.container28{
+	 width: 350px;
+	 height: 200px;
+	 position: relative;
+	 margin-top: 1%;
+	 margin-left:40%;
+	 perspective: 1000px;
+	 transform-style: preserve-3d;
+	 transform: rotatex(-10deg)rotatez(-10deg);
+}
+.images100{
+           width: 100%;
+		   position: absolute;
+		   transform-style: preserve-3d;
+		   animation: rotate 10s linear infinite;
+       }
+@keyframes rotate{
+from{
+}
+to{
+     transform: rotatey(360deg);
+	 }
+}
+img:nth-child(1){
+transform: rotatey(60deg) translatez(300px);
+}	   	   
+img:nth-child(2){
+transform: rotatey(120deg) translatez(300px);
+}	   	   
+img:nth-child(3){
+transform: rotatey(180deg) translatez(300px);
+}	   	   
+img:nth-child(4){
+transform: rotatey(240deg) translatez(300px);
+}	   	   
+img:nth-child(5){
+transform: rotatey(300deg) translatez(300px);
+}	   	   
+img:nth-child(6){
+transform: rotatey(360deg) translatez(300px);
+}	   	   
+img:hover{
+width:340px;
+height:220px;
+cursor:pointer;}
+
+.mar{
+margin-left:350px;
+width:50%;
+}
+</style>
+		      <meta name="viewport" content="width=device-width, initial-scale=1">
+			  <link rel="stylesheet"
+	href="style.css" type="text/css">
+</head>
+
+<body>
+<div id ="top-bar">
+<!--<img id = "news-logo" src="images/bbc1.png">-->
+<i id = "news-logo"><h2>Ekariktin</h2></i>
+<div class="topbar">
+    
+	<span class="size"><a href="home.html" class="" >Home</span></a>
+	</div>
+	<div class="topbar"><a href="sign in.html" class="size" >sign in</a></div>
+	<div class="topbar"><a href="home.html" class="size">Home</a></div>
+	<div class="topbar"><a href="news.html" class="size">News</a></div>
+	<div class="topbar"><a href="sports.html" class="size">Sport</a></div>
+	<div class="topbar"><a href="about.html" class="size">Aboutus</a></div>
+	<div class="topbar"><a href="new1.html" class="size">Managers</a></div>
+	<div class="topbar"><a href="contactus.html" class="size">Contact us</a></div>
+	<div class="topbar"><input id="search" type ="search" name="search" value="search">
+</div>
+</div>
+<hr>
+<div class="mar">
+<marquee behavior="alternate"><h1><a href="new1.html"><mark><h1><i>............. Fest managers.........</h1> <br></marquee>
+
+</div>
+<div class="container28">
+<div class="images100">
+<img class= "s1" src="images/21.jpg">
+<img class= "s1" src="images/img2.png">
+<img class= "s1" src="images/img3.jpg">
+<img class= "s1" src="images/img4.jpg">
+<img class= "s1" src="images/img5.jpg">
+<img class= "s1" src="images/img6.jpg">
+
+</div>
+
+</body>
+
+</html>

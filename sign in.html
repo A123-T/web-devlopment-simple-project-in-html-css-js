@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" href="style1.css">
+<script>
+function dis1()
+{
+     var u = document.getElementById("name").value;
+	 var p = document.getElementById("password").value;
+	 
+     var str ="           Unsucessfull login!!          ";
+if(u=="abc"&&p=="123")
+{
+    document.write("Login sucessful");
+	window.open('new1.html');
+	}
+else
+     {
+	 alert(str);
+	 }
+}
+</script>
+</head>
+<body bgcolor="#DFE3EE">
+Admin name = abc and password = 123
+<div class="outer">
+<div class="inner">
+<h1 align="center">... Hi Admin ....</h1>
+<form id="marginbox">
+<h2>Name </h2>
+<input type ="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admin Name" id="name" name="name"><br>
+<h2>Password</h2>
+<input type ="password" placeholder="Password" id="password" name="name">
+<br>
+<br>
+<br>
+<input type="submit" id="submit" onclick="dis1();" >
+</form>
+</body>
+</html>
